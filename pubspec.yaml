@@ -1,6 +1,5 @@
-name: easyloan
-description: EasyLoan - Instant Emergency Loan App
-publish_to: "none"
+name: EasyLoan
+description: Emergency loan app
 version: 1.0.0+1
 
 environment:
@@ -9,16 +8,13 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  cupertino_icons: ^1.0.6
-  provider: ^6.1.2
-  shared_preferences: ^2.2.3
+
+  shared_preferences: ^2.2.2
   intl: ^0.19.0
-  pdf: ^3.10.8
   path_provider: ^2.1.2
   open_file: ^3.3.2
+  pdf: ^3.10.8
   permission_handler: ^11.3.1
-  image_picker: ^1.1.2
-  camera: ^0.10.5+9
 
 dev_dependencies:
   flutter_test:
